@@ -1,3 +1,4 @@
+pub use rand;
 use rand::{rngs::SmallRng, SeedableRng as _};
 use std::{
     any::Any,
